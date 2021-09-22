@@ -1,0 +1,116 @@
+.header-contain {
+    height: 55px;
+    width: calc(100% - 230px);
+    position: absolute;
+    left: 230px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #0072BC;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 55px;
+    position: absolute;
+}
+
+.dropdown-contain {
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: violet;
+}
+
+.header-right {
+    position: absolute;
+    width: calc(100% - 210px);
+    height: 55px;
+    right: 0;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.user-container {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-right: 8px;
+    background-image: url(../../assets/icon/avatar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.username {
+    color: #fff;
+}
+
+.user-contain-icon {
+    height: 12px;
+    width: 12px;
+    margin-left: 8px;
+    background: url('../../assets/icon/arrow.png');
+    background-position-y: 10px;
+}
+
+.inner-support {
+    height: 100%;
+    width: 54px;
+    background-image: url(../../assets/icon/inner-sp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.notification {
+    height: 100%;
+    width: 54px;
+    align-items: center;
+}
+
+.notification-icon {
+    height: 32px;
+    width: 32px;
+    background-image: url(../../assets/icon/notification.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.language-contain {
+    width: 210px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.language-dropdown {
+    width: 200px;
+    height: 30px;
+    background-color: violet;
+    margin-left: 10px;
+}
+
+.version {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 54px;
+    color: #fff;
+}

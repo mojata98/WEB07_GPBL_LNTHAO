@@ -1,0 +1,9 @@
+.content-contain {
+    height: calc(100vh - 55px);
+    width: calc(100% - 230px);
+    background-color: wheat;
+    position: absolute;
+    left: 230px;
+    top: 55px;
+    font-size: 13px;
+}

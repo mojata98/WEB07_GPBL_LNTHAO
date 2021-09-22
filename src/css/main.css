@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Tahoma-Regular;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: Tahoma-Regular;
+    src: url(../assets/font-family/Tahoma-Regular.TTF);
+}
+
+@font-face {
+    font-family: Tahoma-Bold;
+    src: url(../assets/font-family/Tahoma-Bold.TTF);
+}
+
+@font-face {
+    font-family: Tahoma-Italic;
+    src: url(../assets/font-family/Tahoma-Italic.ttf);
+}
+
+@font-face {
+    font-family: Tahoma-SemiBold;
+    src: url(../assets/font-family/Tahoma-SemiBold.TTF);
+}
