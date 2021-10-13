@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\bin\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.deps.json
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\bin\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.dll
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\bin\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.pdb
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\bin\Debug\netcoreapp3.1\MISA.CUKCUK.Core.dll
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\bin\Debug\netcoreapp3.1\MISA.CUKCUK.Core.pdb
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\obj\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\obj\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\obj\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.AssemblyInfo.cs
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\obj\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\obj\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.csproj.CopyComplete
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\obj\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.dll
+C:\Users\Admin\Desktop\GPBL_MF950_LNTHAO\MISA.CUKCUK.BE\MISA.CUKCUK.Infrastructure\obj\Debug\netcoreapp3.1\MISA.CUKCUK.Infrastructure.pdb
