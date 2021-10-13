@@ -1,0 +1,341 @@
+/* .combobox {
+    height: 28px;
+    width: 200px;
+    background-color: #005082;
+    border: 1px solid #005082;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.combobox:focus {
+    border: 1px solid #005082;
+    outline: none;
+}
+
+.combobox:hover {
+    border: 1px solid #005082;
+    outline: none;
+}
+
+.combobox-text {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #005082;
+    height: 25px;
+    width: 179px;
+    align-items: center;
+    display: flex;
+    color: #fff;
+}
+
+.combobox-icon-contain {
+    height: 28px;
+    width: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.combobox-icon {
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    background: url(../../assets/image/IconSprite.png) no-repeat -5px -1780px;
+}
+
+.combobox-data {
+    position: absolute;
+    top: 43px;
+    width: 201px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px 0px #ccc;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.combobox-item {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    width: 201px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.combobox-item:hover {
+    background-color: #E4F2EA;
+}
+
+.combobox-selected {
+    background-color: #D7E9F4;
+}
+
+.combobox-selected:hover {
+    background-color: #E4F2EA;
+}
+
+.combobox-hidden {
+    display: none;
+} */
+
+
+/*----------------------------------------------*/
+
+.combobox {
+    position: relative;
+}
+
+.combobox-list {
+    padding-left: 0;
+    list-style: none;
+    background-color: #fff!important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: 1px solid #babec5;
+    border-top: none !important;
+    box-shadow: 0 0 5px 1px #ccc;
+    z-index: 103;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.combobox-list.isshow {
+    display: block;
+}
+
+.combobox-list.isnone {
+    display: none;
+}
+
+.combobox-header-wrapper {
+    display: flex;
+    align-items: center;
+    /* border-radius: 2px; */
+    outline: none;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.combobox-header-wrapper[type="cbxHead"] {
+    height: calc(100% - 3px);
+    background-color: #005082!important;
+    line-height: 26px!important;
+    border: none !important;
+}
+
+.combobox-header-wrapper[type="tableList"],
+.combobox-header-wrapper[type="pageSizeList"],
+.combobox-header-wrapper[type="form"] {
+    height: 26px;
+    background-color: #ffffff!important;
+    line-height: 26px!important;
+    border: 1px solid #ccc !important;
+    min-height: 22px;
+}
+
+.combobox-header-wrapper[type="cbxHead"] .combobox-value {
+    color: #fff;
+    padding: 3px 5px;
+    font-family: Tahoma-Regular;
+    background-color: 005082;
+    background-color: #005082 !important;
+    border: none;
+}
+
+.combobox-header-wrapper[type="tableList"] .combobox-value,
+.combobox-header-wrapper[type="pageSizeList"] .combobox-value,
+.combobox-header-wrapper[type="form"] .combobox-value {
+    color: #000;
+    padding: 3px 5px 3px!important;
+}
+
+.combobox-header-wrapper[type="tableList"] .combobox-open,
+.combobox-header-wrapper[type="pageSizeList"] .combobox-open,
+.combobox-header-wrapper[type="form"] .combobox-open {
+    height: 22px !important;
+    width: 22px !important;
+}
+
+.combobox-header-wrapper[type="form"] .combobox-value {
+    height: 20px !important;
+}
+
+.combobox-header-wrapper[type="pageSizeList"] .combobox-value {
+    background-color: #f2f2f2;
+    height: 20px !important;
+}
+
+.combobox-header-wrapper[type="tableList"]>input {
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    flex: 1;
+}
+
+.combobox-header-wrapper[type="pageSizeList"]>input {
+    border: none;
+    width: 36px;
+    background-color: transparent;
+    flex: 1;
+}
+
+.combobox-header-wrapper[type="cbxform"]>input {
+    border: none;
+    width: 27px;
+    background-color: transparent;
+    flex: 1;
+}
+
+.combobox-header-wrapper[type="combo"]>input {
+    border: none;
+    width: 27px;
+    background-color: transparent;
+    flex: 1;
+}
+
+.combobox-open {
+    font-size: 16px;
+    height: 25px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+}
+
+.combobox-open[type="cbxform"] {
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.combobox-header-wrapper:focus,
+.combobox-header-wrapper:hover,
+.combobox-header-wrapper:active {
+    border-color: #0072bc !important;
+}
+
+
+/*combobox item*/
+
+.combobox-item {
+    height: 24px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.combobox-item:hover {
+    background-color: #e4f2ea;
+}
+
+
+/*text của combobox item*/
+
+.combobox-item .combobox-item-text {
+    margin-right: 10px;
+    user-select: none;
+}
+
+.combobox-item.active {
+    color: #000;
+    background-color: #d7e9e4;
+    /* font-weight: 700; */
+}
+
+.combobox-item-header {
+    font-weight: 700;
+    background-color: #f4f5f8;
+    margin-bottom: 2px;
+}
+
+li.combobox-item.combobox-item-header {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.combobox-item-text.combobox-col-1 {
+    flex-basis: 30%;
+}
+
+.move-up {
+    transform: rotate(180deg);
+    transition: all 0.1ms;
+    z-index: 0;
+}
+
+
+/* .combobox-list.show {
+    border: 1px solid #ccc;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 0px 1px 8px 0px #ccc;
+} */
+
+@media only screen and (max-width: 1114px) {
+    .filter .combobox {
+        width: 170px;
+        transition: all 0.5ms;
+    }
+    .filter input.input-search {
+        width: 150px;
+        transition: all 0.5ms;
+    }
+}
+
+.combobox-item.picked,
+.combobox-item.picked:hover {
+    background-color: #d7e9f4;
+    color: #000000 !important;
+}
+
+
+/*combobox item được chọn*/
+
+.combobox-item.picked .combobox-item-icon,
+.combobox-item.picked:hover .combobox-item-icon {
+    color: white !important;
+}
+
+.form-control {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.cbx-add {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-default-small-arrow {
+    width: 16px;
+    height: 16px;
+    background: url(../../assets/icon/trigger.png) no-repeat;
+    cursor: pointer;
+    margin-top: -4px;
+}
+
+.x-form-trigger-default {
+    background: url(../../assets/image/IconSprite.png) no-repeat -5px -1776px;
+    /* background-position: 0 center; */
+    width: 16px;
+    height: 16px;
+}
+
+.icon-form-add-trigger {
+    background: url(../../assets/image/IconSprite.png) no-repeat 0 -48px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}

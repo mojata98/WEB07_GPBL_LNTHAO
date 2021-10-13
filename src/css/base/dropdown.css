@@ -1,0 +1,79 @@
+.dropdown {
+    height: 25px;
+    width: 60px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown:focus {
+    border: 1px solid #0199FB;
+    outline: none;
+}
+
+.dropdown:hover {
+    border: 1px solid #0199FB;
+    outline: none;
+}
+
+.dropdown-text {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #F2F2F2;
+    height: 25px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.dropdown-icon-contain {
+    height: 25px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-icon {
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    background: url(../../assets/image/IconSprite.png) no-repeat -5px -1780px;
+}
+
+.dropdown-data {
+    position: absolute;
+    top: -71px;
+    width: 60px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px 0px #ccc;
+    background-color: #fff;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 60px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.dropdown-item:hover {
+    background-color: #E4F2EA;
+}
+
+.dropdown-selected {
+    background-color: #D7E9F4;
+}
+
+.dropdown-selected:hover {
+    background-color: #E4F2EA;
+}
+
+.dropdown-hidden {
+    display: none;
+}

@@ -1,0 +1,29 @@
+.content-contain {
+    height: calc(100vh - 55px);
+    width: calc(100% - 230px);
+    background-color: #fff;
+    position: absolute;
+    left: 230px;
+    top: 55px;
+    font-size: 13px;
+}
+
+.title-bar {
+    height: 42px;
+    position: absolute;
+    width: 100%;
+}
+
+.text {
+    font-size: 22px;
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+}
+
+.table-paging-contain {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 52px);
+    top: 52px;
+}

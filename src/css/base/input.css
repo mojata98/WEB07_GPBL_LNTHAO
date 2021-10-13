@@ -1,0 +1,15 @@
+.input {
+    min-width: 40px;
+    height: 25px;
+    outline: none;
+    border: 1px solid #c1c1c1;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.input:focus {
+    border: 1px solid #3892d3;
+    outline: none;
+}

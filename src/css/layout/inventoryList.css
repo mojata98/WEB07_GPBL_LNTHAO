@@ -1,0 +1,133 @@
+.table-paging-holder {
+    position: absolute;
+    height: calc(100vh - 115px);
+    width: calc(100% - 16px);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.toolbar {
+    position: relative;
+    height: 28px;
+    width: calc(100% - 2px);
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: 1px solid #c1c1c1;
+}
+
+.table-contain {
+    position: relative;
+    height: calc(100vh - 115px - 38px - 30px);
+    width: 100%;
+}
+
+.pagin-contain {
+    position: sticky;
+    height: 36px;
+    width: calc(100% - 2px);
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    display: flex;
+    align-items: center;
+}
+
+.paging-left {
+    position: relative;
+    height: 38px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.first-page {
+    height: 16px;
+    width: 16px;
+    margin-left: 3px;
+    background-image: url(../../assets/icon/page-first.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.prev-page {
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+    background-image: url(../../assets/icon/page-prev.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.separate-line {
+    height: 16px;
+    width: 1px;
+    margin-left: 8px;
+    background-color: #ccc;
+}
+
+.pagination {
+    height: 38px;
+    width: 150px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.next-page {
+    height: 16px;
+    width: 16px;
+    margin-left: 3px;
+    margin-left: 8px;
+    background-image: url(../../assets/icon/page-next.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.last-page {
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+    background-image: url(../../assets/icon/page-last.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.reload {
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+    background-image: url(../../assets/icon/refresh.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.combobox-paging-contain {
+    margin-left: 32px;
+    height: 25px;
+    width: 60px;
+}
+
+.paging-right {
+    position: relative;
+    height: 38px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.paging-text {
+    position: absolute;
+    right: 8px;
+    padding: 0 4px;
+}
+
+span {
+    white-space: nowrap;
+}
